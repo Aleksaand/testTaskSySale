@@ -1,0 +1,66 @@
+.div__flex {
+  display: flex;
+  /* border: 1px solid black; */
+  margin-top: 27px;
+
+}
+.button__counter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  /* border: 1px solid black; */
+  height: 39px;
+  width: 92px;
+  border-radius: 30px;
+  color:#2C2C2C;
+  background-color: #E2E9F0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.button__submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 302px;
+  /* border: 1px solid black; */
+  height: 39px;
+  border-radius: 30px;
+  margin-left: 31px;
+  background: linear-gradient(#EFBB37, #CF9E1F);
+  color: #fff;
+  font-family: SF UI Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px;
+  /* letter-spacing: 0em; */
+  text-align: center;
+  cursor: pointer;
+  transition: all 1s ease-in;
+  /* transition: all 1s; */
+}
+.button__decrement{
+  cursor: pointer;
+  background-color: #E2E9F0;
+}
+.button__increment{
+  cursor: pointer;
+  background-color: #E2E9F0;
+}
+.button__submit:hover{
+  background: linear-gradient(#CF9E1F, #947116);
+}
+/* .button__decrement:hover{
+  cursor: pointer;
+  background-color: #8d9296;
+}
+.button__increment:hover{
+  cursor: pointer;
+  background-color: #8d9296;
+} */

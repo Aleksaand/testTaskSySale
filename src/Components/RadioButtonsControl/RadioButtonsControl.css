@@ -1,0 +1,30 @@
+/* .radio-box {
+    margin-top: 14px;
+    white-space: nowrap;
+} */
+
+input[type="radio"] {
+    display: none;
+  }
+  input[type="radio"] + span {
+    white-space: nowrap;
+    font-size: 16px;
+    color: black;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    width: 22.5px;
+    height: 22.5px;
+    margin: -11px 0px 0 0;
+    vertical-align: middle;
+    background: #DEDEDE left top no-repeat;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="radio"]:checked + span {
+    background: linear-gradient(#EFBB37, #CF9E1F) -1px top no-repeat;
+  }
+  
+  input[type="radio"] + span {
+    margin-right: 14px;
+  }

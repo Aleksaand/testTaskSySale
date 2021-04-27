@@ -1,0 +1,12 @@
+.div {
+    color: red;
+    font-size: 24px;
+}
+.item {
+    /* color: yellow;
+    font-size: 30px; */
+    display: flex;
+    justify-content: space-around;
+    width: 2000px;
+    
+}
